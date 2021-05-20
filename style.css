@@ -1,0 +1,65 @@
+/* Beginning CSS to complete before constructing web page */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*10px/16px = 62.5% -> 1rem = 10px*/
+  font-family: nunito;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.title {
+  font-size: 2.6rem;
+}
+
+.square {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  padding: 5rem;
+  margin-top: 1.6rem;
+  height: 10%;
+  width: 80%;
+  background-color: aqua;
+  box-shadow: 10px 5px 5px red;
+}
+
+.title_card {
+  font-size: 1.6rem;
+  width: 100%;
+  text-align: center;
+}
+
+.circle {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  border-radius: 50%;
+  padding: 5rem;
+  margin-top: 1.6rem;
+  height: 50%;
+  width: 50%;
+  background-color: rgb(30, 255, 0);
+  box-shadow: 10px 5px 5px blue;
+}
+
+.title_card2 {
+  color: black;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.title_card2:hover {
+  color: red;
+}
+
+a {
+  display: block;
+}
