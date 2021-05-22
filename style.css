@@ -52,7 +52,7 @@ html {
 /* /////////////////////////////////////////////////////////////// */
 
 .container {
-  max-width: 1920px; /*120rem = 1200 pixels*/
+  /*max-width: 1200px; /*120rem = 1200 pixels*/
   /* margin: 8rem auto; */
   background-color: var(--pink);
   min-height: 15rem;
