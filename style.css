@@ -1,7 +1,10 @@
 :root {
   /* Colors: */
-  --unnamed-color-707070: #707070;
-  --unnamed-color-d226d8: #d226d8;
+  --gray: #707070;
+  --pink: #d226d8;
+  --blue: #0042f6;
+  --dark: #707070;
+  --green: #54b962;
 
   /* Font/text values */
   --unnamed-font-family-segoe-ui: Segoe UI;
@@ -37,10 +40,54 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; /*10px/16px = 62.5% -> 1rem = 10px*/
-  font-family: nunito;
+  /* font-family: nunito; */
+  font-family: var(--unnamed-font-family-segoe-ui);
+
+  color: var(--gray);
 }
 
 /* /////////////////////////////////////////////////////////////// */
+
+.container {
+  max-width: 1920px; /*120rem = 1200 pixels*/
+  /* margin: 8rem auto; */
+  background-color: var(--pink);
+  min-height: 15rem;
+}
+
+.prose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.word {
+  color: var(--blue);
+  text-transform: uppercase;
+  font-size: 8rem;
+  align-items: center;
+}
+
+.circle2 {
+  top: 363px;
+  left: 258px;
+  width: 387px;
+  height: 387px;
+  border-radius: 50%;
+  background-color: var(--green);
+  border: 1px solid var(--dark);
+  box-shadow: 15px 3px 6px #000000fa;
+  margin-left: 258px;
+  /* border: 1px solid #707070;
+  opacity: 1; */
+}
+
+.shell {
+  display: flex;
+  justify-content: flex-start;
+}
 
 .title {
   font-size: 2.6rem;
