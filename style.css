@@ -1,3 +1,30 @@
+:root {
+  /* Colors: */
+  --unnamed-color-707070: #707070;
+  --unnamed-color-d226d8: #d226d8;
+
+  /* Font/text values */
+  --unnamed-font-family-segoe-ui: Segoe UI;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-60: 60px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-80: 80px;
+  --unnamed-text-transform-uppercase: uppercase;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-segoe-ui);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-60);
+  line-height: var(--unnamed-line-spacing-80);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-0042f6);
+  text-transform: var(--unnamed-text-transform-uppercase);
+}
+/*/////////////////////////////////////////////////////////////////*/
 /* Beginning CSS to complete before constructing web page */
 *,
 *::before,
