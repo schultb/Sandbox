@@ -29,11 +29,14 @@
 }
 /*/////////////////////////////////////////////////////////////////*/
 /* Beginning CSS to complete before constructing web page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: inherit;
 }
 
