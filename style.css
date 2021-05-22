@@ -55,7 +55,10 @@ html {
   /*max-width: 1200px; /*120rem = 1200 pixels*/
   /* margin: 8rem auto; */
   background-color: var(--pink);
-  min-height: 15rem;
+  width: 100%;
+  height: 20vh;
+  font-size: 3rem;
+  color: white;
 }
 
 .prose {
@@ -69,20 +72,22 @@ html {
 .word {
   color: var(--blue);
   text-transform: uppercase;
-  font-size: 8rem;
+  font-size: 3rem;
   align-items: center;
+  /* padding: 5rem; */
 }
 
 .circle2 {
-  top: 363px;
-  left: 258px;
-  width: 387px;
-  height: 387px;
+  width: 30rem;
+  height: 30rem;
   border-radius: 50%;
   background-color: var(--green);
   border: 1px solid var(--dark);
   box-shadow: 15px 3px 6px #000000fa;
-  margin-left: 258px;
+  flex-shrink: 0;
+  /* margin-left: 10rem; */
+
+  /* margin-left: 2.58rem; */
   /* border: 1px solid #707070;
   opacity: 1; */
 }
@@ -90,6 +95,7 @@ html {
 .shell {
   display: flex;
   justify-content: flex-start;
+  margin-left: 1rem;
 }
 
 .title {
